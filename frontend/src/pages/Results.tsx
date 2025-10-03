@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
-import { Download, ArrowLeft, CheckCircle2, AlertCircle, TrendingUp } from 'lucide-react';
+import { Download, ArrowLeft, CircleCheck as CheckCircle2, CircleAlert as AlertCircle, TrendingUp } from 'lucide-react';
 import type { AdvisorResult, PortfolioPreference } from '@/types';
 
 const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899'];

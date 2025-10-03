@@ -1,7 +1,7 @@
 import { type ReactNode } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
-import { TrendingUp, LogOut, LayoutDashboard, Home } from 'lucide-react';
+import { TrendingUp, LogOut, LayoutDashboard, Hop as Home } from 'lucide-react';
 
 interface LayoutProps {
   children: ReactNode;
