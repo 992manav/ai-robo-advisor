@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Plus, PieChart, TrendingUp, Activity } from 'lucide-react';
+import { Plus, ChartPie as PieChart, TrendingUp, Activity } from 'lucide-react';
 
 export function Dashboard() {
   const [portfolios] = useState([
