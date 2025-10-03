@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { TrendingUp, Target, Shield, BarChart3, Brain, Zap } from 'lucide-react';
+import { TrendingUp, Target, Shield, ChartBar as BarChart3, Brain, Zap } from 'lucide-react';
 
 export function Landing() {
   return (
