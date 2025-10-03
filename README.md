@@ -21,9 +21,12 @@ This is the system workflow:
 
 ## Key Features
 
-*   **AI-Driven Analysis:** Leverages AI to analyze market data and suggest investment strategies.
-*   **Portfolio Management:** Helps you build and track your investment portfolio.
-*   **Educational Tool:** A great way to learn about both Langgraph and AI applications in finance.
+*   **Web Interface:** Modern React application with interactive portfolio creation and analysis visualization
+*   **AI-Driven Analysis:** Leverages AI to analyze market data and suggest investment strategies
+*   **Portfolio Management:** Build and track investment portfolios through both web and CLI interfaces
+*   **Real-Time Progress:** Live updates as AI agents work on your investment strategy
+*   **Data Visualization:** Interactive charts for asset allocation, geographical diversification, and performance metrics
+*   **Educational Tool:** Learn about both Langgraph and AI applications in finance
 
 ## Table of Contents
 - [Installation](#installation)
@@ -79,8 +82,38 @@ Note:
 
 ## How to Run
 
+### 🌐 Web Interface (NEW!)
+Experience the AI Robo Advisor through a modern, user-friendly web interface built with React.
+
+1. **Navigate to the frontend directory:**
+   ```bash
+   cd frontend
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:5173`
+
+The web interface provides:
+- Interactive portfolio creation wizard
+- Real-time analysis progress indicators
+- Beautiful data visualizations with charts
+- Responsive design for mobile and desktop
+- User authentication and dashboard
+
+See the [frontend README](frontend/README.md) for more details.
+
 ### ⌨️ Command Line Interface
-You can run the AI Robo Advisor directly via terminal. This approach offers more granular control and is useful for automation, scripting, and integration purposes.
+You can also run the AI Robo Advisor directly via terminal. This approach offers more granular control and is useful for automation, scripting, and integration purposes.
 
 ![Portfolio recommendation flow](assets/portfolio-response.png)
 
